@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .container{
+    display: flex;
+    padding: 16px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body > header{
+    background-color: rgb(15, 43, 43);
+    padding: 12px 0;
+    color: aliceblue;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header li a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: aliceblue;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#Jogos{
+    background-color: rgb(7, 7, 7);
+    color: red;
+}
+
+#Jogos .articles article a {
+    background-color: red;
+}
+
+
+#Filmes{
+    background-color: orangered;
+    color: black;
+}
+
+#Filmes .articles article a {
+    background-color: black;
+}
+
+
